@@ -1,4 +1,4 @@
-# Register-Login-Data-entry-manipulate
+# Register-Login-Data-entry-manipulation
 
 npm install
 npm start
