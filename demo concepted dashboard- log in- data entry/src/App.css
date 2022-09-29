@@ -1,0 +1,255 @@
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif
+}
+
+body {
+    margin: 0 auto
+}
+
+.m-5-auto {
+    margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
+}
+
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300
+}
+
+.links Link {
+    text-decoration: none;
+}
+
+form {
+    display: inline-block;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 2rem;
+    
+    margin: 0 0 1rem 0
+    
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
+}
+
+.right-label {
+    float: right;
+    cursor: pointer
+}
+
+input {
+    width: 15rem;
+    padding: .3rem;
+    border-radius: 5px;
+    outline: none;
+    border: none
+}
+
+#sub_btn {
+    display: block;
+    width: 100%;
+    padding: .3rem; 
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: .3rem;
+    margin-left: 45%;
+    border: none;
+    background: #222;
+    color: #fff;
+    border-radius: 3px;
+    
+    
+}
+
+.btn1:hover {
+    background: #333;
+    transition: all .5s
+}
+
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 30%;
+  }
+
+  #content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    width: 20%;
+    top: 20px;
+    left: 20px;}
+
+    .topright {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 0.87rem;
+      }
+#content ul{
+    position: flex;
+}
+
+#content button{
+    position: relative;
+    display: block;
+    top: 250px;
+    left: 30px;
+    width: 20%;
+    border: solid;
+    background-color: #7e8143;
+    color: white;
+    padding: 14px 28px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+}
+#content button:hover{
+    background-color: #ddd;
+    color: black;
+}
+      
+#content1 {
+    position: relative;
+}
+#content1 img {
+    position: absolute;
+    width: 15%;
+    top: -60px;
+    left: 20px;}
+
+    #centercont{
+        position: absolute;
+        left: 400px;
+        top: 240px;
+    }
+
+   #centercont h3{
+       font-size: 3vw;
+   }
+   #centercont p, ul{
+    font-size: 1.5vw;
+}
+
+
+form{
+    background-color: #fcffbf;
+}
+
+
+.card-body{
+    background-color : #fcffbf; 
+}
